@@ -48,7 +48,7 @@ module.exports={
           .then(() => res.json({ message: 'That user was deleted' }))
           .catch((err) => res.status(500).json(err));
       },
-    addFriend({ params, body }, res) {
+    addFriend({ params }, res) {
         User.findOneAndUpdate(
         { _id: params.id },
         { $addToSet: { friends: params.friendId } },
