@@ -25,7 +25,7 @@ My motivation for this project was to create an application that will act like t
 
 ## Languages
 
-The languages used for this were HTML, CSS, Node.JS, and Javascript
+The languages used for this were Node.JS, Express.JS, MongooseDB and Javascript
 
 ## Usage
 
